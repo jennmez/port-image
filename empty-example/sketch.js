@@ -101,9 +101,35 @@ function draw() {
   fill(94, 160, 135, 230);
   triangle(500, 284, 800, 768, 200, 768);
 
+  //diamond dark brown
+  fill(47, 75, 55, 250);
+  beginShape();
+  vertex(510, 269);
+  vertex(535, 340);
+  vertex(500, 384);
+  vertex(458, 350);
+  endShape();
+
+  //diamond light brown
+  fill(108, 102, 80, 150);
+  beginShape();
+  vertex(458, 350);
+  vertex(425, 400);
+  vertex(462, 450);
+  vertex(500, 384);
+  endShape();
+
   //Tan triangle
   fill(218, 199, 158);
   triangle(500, 384, 660, 668, 340, 668);
+
+  //teal triangle overlay
+  fill(94, 160, 135, 50);
+  triangle(540, 455, 660, 668, 428, 668);
+
+  //tiny Tan triangle
+  fill(218, 199, 158, 230);
+  triangle(625, 610, 660, 668, 590, 668);
 
   //teal circle
   fill(94, 160, 135, 230);
